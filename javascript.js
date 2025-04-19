@@ -3,6 +3,12 @@ const containerSize = Math.min(window.innerWidth, window.innerHeight) * 0.9;
 let gridSize = 16;
 let boxSize = containerSize / gridSize;
 
+const body = document.querySelector("body");
+body.style.display = "flex";
+body.style.flexDirection = "column";
+body.style.justifyContent = "center";
+body.style.alignItems = "center";
+
 const button = document.createElement("button");
     button.textContent = "Resize and clear board";
     button.style.display = "flex";
@@ -16,7 +22,7 @@ const button = document.createElement("button");
         container.innerHTML = "";
         resizeGrid();
     })
-document.querySelector("body").insertBefore(button, container);
+body.insertBefore(button, container);
 
 container.style.display = "flex";
 container.style.flexWrap = "wrap";
