@@ -15,7 +15,3 @@ A browser-based Etch-a-Sketch application built with HTML, CSS, using JavaScript
 
 ## Live Demo
 Check it out here: https://wongyhung.github.io/project-etch-a-sketch/
-
-## Commercial Use Restriction
-The code in this repository is licensed under the Apache License 2.0. However, **commercial use or use in any product for profit** requires **prior written permission** from the author.
-Please contact wongyhung@gmail.com for permission.
